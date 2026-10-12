@@ -1,2 +1,2 @@
-# gibby-chat
-Chat developed using sockets
+## 🍊 Gibby chat
+Readme under maintenance
