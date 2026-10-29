@@ -12,6 +12,7 @@ int check_sock_error(int value, SOCKET_ERRORS err){
             }
 
             break;
+            
         case BIND_ERR:
             if (value < 0){
                 perror("Failed Bind");
