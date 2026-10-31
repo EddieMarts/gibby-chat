@@ -1,6 +1,6 @@
 #include "server/server.h"
 
-bool connect_status = 0;
+static bool connect_status = 0;
 
 void *server_send(void *sock){
     int s_sock = *(int *)sock;

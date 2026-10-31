@@ -1,6 +1,6 @@
 #include "client/client.h"
 
-bool connect_status = 0;
+static bool connect_status = 0;
 
 void *client_send(void *sock){
     int s_sock = *(int*)sock;
